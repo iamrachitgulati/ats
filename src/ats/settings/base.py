@@ -26,7 +26,7 @@ SECRET_KEY = 'n8b%z+wkbmy-jogezai()1zc3br$epz6lfy&zo5$-of9)pa51$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'atsproject.pythonanywhere.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'ats2017.pythonanywhere.com', 'localhost']
 
 # Application definition
 
@@ -101,10 +101,10 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'atsproject$atsprojectdb2',
-            'USER': 'atsproject',
-            'PASSWORD': 'pass1234',
-            'HOST': 'atsproject.mysql.pythonanywhere-services.com',
+            'NAME': 'ats2017$default',
+            'USER': 'ats2017',
+            'PASSWORD': 'DySmutqh',
+            'HOST': 'ats2017.mysql.pythonanywhere-services.com',
             'OPTIONS': {'init_command': "SET sql_mode='STRICT_TRANS_TABLES'", },
         }
     }
